@@ -1,0 +1,42 @@
+
+
+In javascript code,
+
+*The 'setInterval()' method calls a function at specified interval of time (in milliseconds, 1 second = 1000 milliseconds.).
+It continues calling the function until clearInterval() is called, or the window is closed.
+Syntax:                      setInterval(function, milliseconds, param1, param2, ...)
+where, function(Required): The function to execute.
+milliseconds(Required): The execution interval.
+param1, param2, ...	(Optional): Additional parameters to pass to the function.
+
+It returns a number which is an id of the timer.
+Use this id with 'clearInterval()' to cancel the timer.
+
+*Time units conversion:
+1000 ms = 1 s
+60 s = 1 min
+60 min = 1 hr
+So whenever a varible containing milisecond reach upto 1000,
+second's variable get incremented by one(1) &
+again a cycle of milisecond starts from zero.
+Similar for seconds, minutes & hours respectively.
+
+*The 'conditional (ternary) operator' is the only JavaScript operator that takes three operands: 
+1.a 'condition' followed by a question mark (?), then 
+2.an 'expression' to execute if the condition is 'true' followed by a colon (:), and finally 
+3.the 'expression' to execute if the condition is 'false'. 
+Syntax:               condition ? exprIfTrue : exprIfFalse
+This operator is frequently used as an alternative to an 'if...else' statement.
+
+
+*The 'clearInterval()' method clears a timer set with the setInterval() method.
+It terminates the execution of function specified by setInterval().
+To clear an interval, use the id returned from setInterval().
+syntax:              clearInterval(int);
+
+
+
+
+
+
+
